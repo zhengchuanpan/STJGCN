@@ -24,9 +24,11 @@ python test.py --config config/STJGCN_PeMSD8.conf
 
 ## Results
 
-The following results are tested in Linux system with Tesla V100 GPU:
+We provide pre-trained models on both datasets, which achieve the following performance:
 
 | Dataset |  MAE  |  RMSE  |  MAPE  |
 | --------|------ | ------ | ------ |
 | PeMSD4  | 18.83 | 30.32  | 11.89% |
-| PeMSD8  | 14.51 | 23.82  | 9.06%  |
+| PeMSD8  | 14.51 | 23.82  |  9.06% |
+
+Note that this result is different from the results reported in Table 1 in the paper, which is the average error over 10 runs.
