@@ -1,5 +1,9 @@
 # Spatio-Temporal Joint Convolutional Network for Traffic Forecasting
 
+## Structure
+
+* data: including PEMSD4 and PEMSD8 dataset used in our experiments
+
 ## Requirements
 
 Python 3.7.10, tensorflow 1.14.0, numpy 1.20.3, scipy 1.2.1, argparse and configparser
