@@ -2,7 +2,15 @@
 
 ## Structure
 
-* data: including PEMSD4 and PEMSD8 dataset used in our experiments
+* config: the experimetal settings of our model
+* data: includes the PEMSD4 and PEMSD8 datasets used in our experiments
+* logs: contains the logs during training or testing
+* model: save the model (we also provide pre-trained models for both datasets)
+* model.py: implement of our STJGCN model
+* utils.py: tools, including data processing, evaluation metrics, etc.
+* tf_utils.py: tensorflow-based tools
+* train.py: code of training STJGCN
+* test.py: code of testing STJGCN
 
 ## Requirements
 
