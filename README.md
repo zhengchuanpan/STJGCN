@@ -31,4 +31,4 @@ We provide pre-trained models on both datasets, which achieve the following perf
 | PeMSD4  | 18.83 | 30.32  | 11.89% |
 | PeMSD8  | 14.51 | 23.82  |  9.06% |
 
-Note that this result is different from (better than) Table 1 in the paper, where we report the average error over 10 runs.
+Note that this result is different from (better than) Table 1 in the paper, because we report the average error over 10 runs in Table 1.
