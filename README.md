@@ -14,11 +14,11 @@
 
 ## Requirements
 
-Python 3.7.10, tensorflow 1.14.0, numpy 1.20.3, scipy 1.2.1, argparse and configparser
+Python 3.7.10, tensorflow 1.14.0, numpy 1.16.4, scipy 1.2.1, argparse and configparser
 
 ## Training
 
-To train STJGCN on the PeMSD4 or PeMSD8 dataset, run this command:
+To train STJGCN on the PeMSD4 or PeMSD8 dataset, run:
 
 ```train
 python train.py --config config/STJGCN_PeMSD4.conf
@@ -40,7 +40,7 @@ We provide pre-trained models on both datasets, which achieve the following perf
 
 | Dataset |  MAE  |  RMSE  |  MAPE  |
 | --------|------ | ------ | ------ |
-| PeMSD4  | 18.83 | 30.32  | 11.89% |
-| PeMSD8  | 14.51 | 23.82  |  9.06% |
+| PeMSD4  | 18.79 | 30.38  | 11.87% |
+| PeMSD8  | 14.50 | 23.66  |  9.07% |
 
-Note that this result is different from (better than) Table 1 in the paper, because we report the average error over 10 runs in Table 1.
+Note that this result is different to (better than) Table 1 in the paper, because we report the average error over 10 runs in Table 1.
